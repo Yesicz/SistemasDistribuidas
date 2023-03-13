@@ -17,9 +17,9 @@ public class MiddlewareServer extends Thread  {
 			ServerSocket s = new ServerSocket(8000);
 			
 			System.out.println("--Configuracion del Servidor--");
-			System.out.print("Ingrese numero de servidores que se usaran para las operaciones aritmeticas: ");
-			basicServerNumber = Integer.parseInt(teclado.readLine());
-
+			//System.out.print("Ingrese numero de servidores que se usaran para las operaciones aritmeticas: ");
+			//basicServerNumber = Integer.parseInt(teclado.readLine());
+			basicServerNumber = 3;
 			for (int i = 0; i < basicServerNumber; i++) {
 					ip = "127.0.0.1";
 				basicServers.add(ip);
