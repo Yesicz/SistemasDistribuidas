@@ -17,6 +17,7 @@ public class MiddlewareServer extends Thread  {
 			ServerSocket s = new ServerSocket(8000);
 			
 			System.out.println("--Configuracion del Servidor--");
+			System.out.print("Servidor conectado... ");
 			//System.out.print("Ingrese numero de servidores que se usaran para las operaciones aritmeticas: ");
 			//basicServerNumber = Integer.parseInt(teclado.readLine());
 			basicServerNumber = 3;
